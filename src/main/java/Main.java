@@ -26,6 +26,7 @@ public class Main {
             cars.add(new Car(name, Integer.parseInt(speed)));
         }
 
+        scanner.close();
         System.out.printf("Самая быстрая машина: %s\n", race.getRaceResults());
     }
 
